@@ -64,6 +64,7 @@ def load_data(filter_city, filter_month, filter_day):
 
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
+    extra: the filter day input is converterd to capitalise the first letter of the weekday, because pandas capaitalises weekday names
     """
 
     df=pd.read_csv(CITY_DATA[filter_city])
