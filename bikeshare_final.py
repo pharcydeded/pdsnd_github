@@ -27,7 +27,7 @@ def get_month():
     """
     Asks user for month input
 
-    The input is used to create a month filter within a dataframe of csv data file for a particular city 
+    The input is used to create a month filter within a dataframe of csv data file for a particular city
 
     """
     while True:
@@ -114,7 +114,7 @@ def station_stats(filtered_data):
 
     print( "\n The most common starting station is", popular_start_station)
     print( "\n The most common ending station is", popular_ending_station)
-    print( "\n The most common combination of starting and ending sations is", popular_combination_of_stations)
+    print( "\n The most common combination of starting and ending sations are", popular_combination_of_stations)
 
 station_stats(filtered_data)
 
@@ -126,11 +126,11 @@ def trip_duration_stats(filtered_data):
 
     total_travel_time= filtered_data['Trip Duration'].sum()
     to_hours= total_travel_time / 360
-    print('Total travel time [in hours] is', to_hours)
+    print('Total travel time expressed [in hours] is', to_hours)
 
     total_travel_time= filtered_data['Trip Duration'].mean()
     to_mean_hours= total_travel_time / 360
-    print('Mean travel time [in hours] is', to_mean_hours)
+    print('Mean travel time expressed[in hours] is', to_mean_hours)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
