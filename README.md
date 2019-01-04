@@ -14,4 +14,6 @@ Bikeshare_final.py - python code for bikeshare data interactive script for data 
 csv data files for cities - new york city, chicago and washington
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://www.w3schools.com/python/python_while_loops.asp
+https://realpython.com/python-while-loop/
+https://stackoverflow.com/questions/37281553/why-there-is-no-do-while-loop-in-python
