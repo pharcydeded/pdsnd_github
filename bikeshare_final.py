@@ -10,6 +10,8 @@ def get_city():
     """
     Asks user for city input
 
+    The input is matched to a csv data file containing data on that particular city
+
     """
     while True:
         city = input ("Enter the name of the city you want information about: chicago, new york city or washington: \n").lower()
@@ -24,6 +26,8 @@ def get_city():
 def get_month():
     """
     Asks user for month input
+
+    The input is used to create a month filter within a dataframe of csv data file for a particular city 
 
     """
     while True:
